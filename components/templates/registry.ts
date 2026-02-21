@@ -1,0 +1,28 @@
+import * as template1 from './template-1'
+import * as template2 from './template-2'
+import * as template3 from './template-3'
+import * as template4 from './template-4'
+import * as template5 from './template-5'
+import * as template6 from './template-6'
+import * as template7 from './template-7'
+import * as template8 from './template-8'
+import type { TemplateProps } from './types'
+
+export interface TemplateEntry {
+  LOView: React.ComponentType<TemplateProps>
+  CompanyView: React.ComponentType<TemplateProps>
+  templateMeta: { id: string; name: string; description: string }
+}
+
+export const templates: Record<string, TemplateEntry> = {
+  'template-1': template1,
+  'template-2': template2,
+  'template-3': template3,
+  'template-4': template4,
+  'template-5': template5,
+  'template-6': template6,
+  'template-7': template7,
+  'template-8': template8,
+}
+
+export const templateList = Object.values(templates).map(t => t.templateMeta)

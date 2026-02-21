@@ -2,12 +2,11 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import stockData from '@/data/stock-data.json'
 
 interface TemplateSwitcherProps {
   currentTemplate: string
-  viewMode: 'loan-officer' | 'company'
+  viewMode: string
 }
 
 export function TemplateSwitcher({ currentTemplate, viewMode }: TemplateSwitcherProps) {

@@ -7,9 +7,24 @@
     "phone": "(555) 123-4567",
     "bio": "With over 10 years of experience in mortgage lending, Sarah is dedicated to helping families find the perfect home financing solution. Specializing in FHA, VA, and conventional loans.",
     "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-    "licensedStates": ["CA", "AZ", "NV", "TX"],
-    "loanTypes": ["Conventional", "FHA", "VA", "USDA", "Jumbo", "Portfolio"],
-    "certifications": ["Certified Mortgage Planner", "National Association of Mortgage Brokers Member"],
+    "licensedStates": [
+      "CA",
+      "AZ",
+      "NV",
+      "TX"
+    ],
+    "loanTypes": [
+      "Conventional",
+      "FHA",
+      "VA",
+      "USDA",
+      "Jumbo",
+      "Portfolio"
+    ],
+    "certifications": [
+      "Certified Mortgage Planner",
+      "National Association of Mortgage Brokers Member"
+    ],
     "yearsInIndustry": 10,
     "testimonials": [
       {
@@ -105,10 +120,22 @@
     "calculators": {
       "mortgage": {
         "interestRates": [
-          { "type": "30-Year Fixed", "rate": 6.5 },
-          { "type": "15-Year Fixed", "rate": 5.95 },
-          { "type": "5/1 ARM", "rate": 5.75 },
-          { "type": "7/1 ARM", "rate": 5.85 }
+          {
+            "type": "30-Year Fixed",
+            "rate": 6.5
+          },
+          {
+            "type": "15-Year Fixed",
+            "rate": 5.95
+          },
+          {
+            "type": "5/1 ARM",
+            "rate": 5.75
+          },
+          {
+            "type": "7/1 ARM",
+            "rate": 5.85
+          }
         ]
       }
     }
@@ -149,6 +176,18 @@
       "name": "Elegant White",
       "description": "Clean white background with elegant accents",
       "thumbnail": "https://images.unsplash.com/photo-1541070979881-3dcf0a14d3d1?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "template-7",
+      "name": "Bold Orange",
+      "description": "Energetic orange and charcoal theme with strong CTAs and bold typography.",
+      "thumbnail": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "template-8",
+      "name": "Nathan Pro",
+      "description": "Slate/dark hero with trust signals and lead capture focus. Inspired by top producers.",
+      "thumbnail": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=600&h=400&fit=crop"
     }
   ]
 }

@@ -1,17 +1,18 @@
 import { TemplateSwitcher } from '@/components/TemplateSwitcher'
 import { CtaBanner } from '@/components/CtaBanner'
 
-export default function TemplateLayout({
+export default async function TemplateLayout({
   children,
   params,
 }: {
   children: React.ReactNode
-  params: { 'template-name': string; viewMode: 'loan-officer' | 'company' }
+  params: Promise<{ 'template-name': string; viewMode: string }>
 }) {
+  const { 'template-name': templateName, viewMode } = await params
   return (
     <div className="min-h-screen bg-gray-50">
       <CtaBanner />
-      <TemplateSwitcher currentTemplate={params['template-name']} viewMode={params.viewMode} />
+      <TemplateSwitcher currentTemplate={templateName} viewMode={viewMode} />
       <div className="bg-white">
         {children}
       </div>
