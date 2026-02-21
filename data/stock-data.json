@@ -145,49 +145,49 @@
       "id": "template-1",
       "name": "Modern Dark",
       "description": "Sleek dark theme with modern design elements",
-      "thumbnail": "https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-1.svg"
     },
     {
       "id": "template-2",
       "name": "Classic Pro",
       "description": "Professional and timeless design",
-      "thumbnail": "https://images.unsplash.com/photo-1467694083078-bf50154402c5?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-2.svg"
     },
     {
       "id": "template-3",
       "name": "Minimal Clean",
       "description": "Minimal approach with clean lines",
-      "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-3.svg"
     },
     {
       "id": "template-4",
       "name": "Corporate Plus",
       "description": "Corporate style with modern touches",
-      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-4.svg"
     },
     {
       "id": "template-5",
       "name": "Dynamic Blue",
       "description": "Vibrant blue theme with dynamic elements",
-      "thumbnail": "https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-5.svg"
     },
     {
       "id": "template-6",
       "name": "Elegant White",
       "description": "Clean white background with elegant accents",
-      "thumbnail": "https://images.unsplash.com/photo-1541070979881-3dcf0a14d3d1?w=400&h=300&fit=crop"
+      "thumbnail": "/thumbnails/template-6.svg"
     },
     {
       "id": "template-7",
       "name": "Bold Orange",
       "description": "Energetic orange and charcoal theme with strong CTAs and bold typography.",
-      "thumbnail": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop"
+      "thumbnail": "/thumbnails/template-7.svg"
     },
     {
       "id": "template-8",
       "name": "Nathan Pro",
       "description": "Slate/dark hero with trust signals and lead capture focus. Inspired by top producers.",
-      "thumbnail": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=600&h=400&fit=crop"
+      "thumbnail": "/thumbnails/template-8.svg"
     }
   ]
 }
