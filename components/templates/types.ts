@@ -61,6 +61,7 @@ export interface LOProfile {
 
 // Backward compat alias for templates 4-9 that still use old field names
 export interface LoanOfficer extends LOProfile {
+  licensedStates: string[]
   loanTypes: string[]
   certifications: string[]
   yearsInIndustry: number
