@@ -1,13 +1,16 @@
-# LO Website Templates Microservice — Phase 1 Complete ✅
+# LO Website Templates Microservice — Phase 0 Scaffold Complete ✅
+
+> This was Phase 0 (scaffold setup). Phase 1 per PRD is the template foundation work
+> (LOProfile schema, 11-section component library, GeoAwareCTA, UpsellGate, theme tokens).
 
 ## Executive Summary
 
-**Project:** LoanGraphs LO Website Templates Microservice  
-**Phase:** 1 - Foundation  
-**Status:** ✅ **COMPLETE**  
-**Date:** 2026-02-21  
-**Builder:** Jordan-DevJunior  
-**Repository:** https://github.com/LoanGraphs/lo-templates  
+**Project:** LoanGraphs LO Website Templates Microservice
+**Phase:** 0 - Scaffold Setup
+**Status:** ✅ **COMPLETE**
+**Date:** 2026-02-21
+**Builder:** Jordan-DevJunior
+**Repository:** https://github.com/LoanGraphs/lo-templates
 
 Phase 1 has been successfully completed on schedule. The foundation is solid, tested, and ready for Phase 2 (template porting).
 
