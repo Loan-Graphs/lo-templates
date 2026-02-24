@@ -1,8 +1,11 @@
-# Phase 1 - Foundation (COMPLETE)
+# Phase 0 - Scaffold Setup (COMPLETE)
 
-**Status:** ✅ Complete  
-**Date:** 2026-02-21  
-**Builder:** Jordan-DevJunior  
+> This was Phase 0 (scaffold setup). Phase 1 per PRD is the template foundation work
+> (LOProfile schema, 11-section component library, GeoAwareCTA, UpsellGate, theme tokens).
+
+**Status:** ✅ Complete
+**Date:** 2026-02-21
+**Builder:** Jordan-DevJunior
 
 ## Completed Tasks
 

@@ -7,42 +7,51 @@
     "phone": "(555) 123-4567",
     "bio": "With over 10 years of experience in mortgage lending, Sarah is dedicated to helping families find the perfect home financing solution. Specializing in FHA, VA, and conventional loans.",
     "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-    "licensedStates": [
-      "CA",
-      "AZ",
-      "NV",
-      "TX"
+    "company": "Summit Lending Group",
+    "licenseStates": ["CA", "AZ", "NV", "TX"],
+    "licensedStates": ["CA", "AZ", "NV", "TX"],
+
+    "headline": "Your Mortgage, Done Right.",
+    "subheadline": "Sarah Mitchell is a licensed mortgage loan officer with 10+ years of experience helping families and investors find the best loan for their situation.",
+
+    "googleRating": 4.9,
+    "reviewCount": 127,
+    "yearsExperience": 10,
+
+    "primaryColor": "#1e40af",
+    "accentColor": "#f97316",
+
+    "loanProducts": [
+      { "id": "conventional", "name": "Conventional", "description": "Traditional financing with competitive rates for qualified borrowers.", "icon": "home" },
+      { "id": "fha", "name": "FHA", "description": "Low down payment options backed by the Federal Housing Administration.", "icon": "dollar" },
+      { "id": "va", "name": "VA", "description": "Zero down payment loans for eligible veterans and service members.", "icon": "home" },
+      { "id": "usda", "name": "USDA", "description": "Rural development loans with zero down payment for eligible areas.", "icon": "home" },
+      { "id": "jumbo", "name": "Jumbo", "description": "Financing for high-value properties exceeding conforming loan limits.", "icon": "investment" },
+      { "id": "dscr", "name": "DSCR Investment", "description": "Qualify on rental property cash flow — no W2 income required.", "icon": "investment" }
     ],
-    "loanTypes": [
-      "Conventional",
-      "FHA",
-      "VA",
-      "USDA",
-      "Jumbo",
-      "Portfolio"
-    ],
-    "certifications": [
-      "Certified Mortgage Planner",
-      "National Association of Mortgage Brokers Member"
-    ],
-    "yearsInIndustry": 10,
     "testimonials": [
-      {
-        "author": "John Rodriguez",
-        "text": "Sarah made the entire process smooth and stress-free. Highly recommended!",
-        "rating": 5
-      },
-      {
-        "author": "Maria Garcia",
-        "text": "Excellent communication and very knowledgeable about VA loans.",
-        "rating": 5
-      },
-      {
-        "author": "David Chen",
-        "text": "Fast approval process and competitive rates. Will definitely work with Sarah again.",
-        "rating": 5
-      }
-    ]
+      { "id": "t1", "author": "John Rodriguez", "text": "Sarah made the entire process smooth and stress-free. Highly recommended!", "rating": 5, "date": "Phoenix, AZ" },
+      { "id": "t2", "author": "Maria Garcia", "text": "Excellent communication and very knowledgeable about VA loans.", "rating": 5, "date": "Scottsdale, AZ" },
+      { "id": "t3", "author": "David Chen", "text": "Fast approval process and competitive rates. Will definitely work with Sarah again.", "rating": 5, "date": "Los Angeles, CA" }
+    ],
+    "differentiators": [
+      "10+ years of mortgage lending experience",
+      "Certified Mortgage Planner",
+      "National Association of Mortgage Brokers Member",
+      "Licensed in 4 states across the Southwest",
+      "Direct access — no call centers"
+    ],
+
+    "plan": "free",
+    "marketDataEnabled": false,
+    "seoArticlesEnabled": false,
+    "seoTier": "minimum",
+    "targetGeos": ["Phoenix, AZ", "Los Angeles, CA", "Las Vegas, NV"],
+    "targetTopics": ["first-time homebuyer", "VA loans", "FHA loans"],
+
+    "loanTypes": ["Conventional", "FHA", "VA", "USDA", "Jumbo", "Portfolio"],
+    "certifications": ["Certified Mortgage Planner", "National Association of Mortgage Brokers Member"],
+    "yearsInIndustry": 10
   },
   "company": {
     "name": "Summit Lending Group",
@@ -70,24 +79,9 @@
       }
     ],
     "offices": [
-      {
-        "city": "Los Angeles",
-        "state": "CA",
-        "address": "123 Main St, Los Angeles, CA 90001",
-        "phone": "(555) 111-1111"
-      },
-      {
-        "city": "Phoenix",
-        "state": "AZ",
-        "address": "456 Oak Ave, Phoenix, AZ 85001",
-        "phone": "(555) 222-2222"
-      },
-      {
-        "city": "Las Vegas",
-        "state": "NV",
-        "address": "789 Desert Blvd, Las Vegas, NV 89101",
-        "phone": "(555) 333-3333"
-      }
+      { "city": "Los Angeles", "state": "CA", "address": "123 Main St, Los Angeles, CA 90001", "phone": "(555) 111-1111" },
+      { "city": "Phoenix", "state": "AZ", "address": "456 Oak Ave, Phoenix, AZ 85001", "phone": "(555) 222-2222" },
+      { "city": "Las Vegas", "state": "NV", "address": "789 Desert Blvd, Las Vegas, NV 89101", "phone": "(555) 333-3333" }
     ]
   },
   "content": {
@@ -120,122 +114,22 @@
     "calculators": {
       "mortgage": {
         "interestRates": [
-          {
-            "type": "30-Year Fixed",
-            "rate": 6.5
-          },
-          {
-            "type": "15-Year Fixed",
-            "rate": 5.95
-          },
-          {
-            "type": "5/1 ARM",
-            "rate": 5.75
-          },
-          {
-            "type": "7/1 ARM",
-            "rate": 5.85
-          }
+          { "type": "30-Year Fixed", "rate": 6.5 },
+          { "type": "15-Year Fixed", "rate": 5.95 },
+          { "type": "5/1 ARM", "rate": 5.75 },
+          { "type": "7/1 ARM", "rate": 5.85 }
         ]
       }
     }
   },
   "templates": [
-    {
-      "id": "template-1",
-      "name": "Modern Dark",
-      "description": "Sleek dark theme with modern design elements",
-      "thumbnail": "/thumbnails/template-1.svg"
-    },
-    {
-      "id": "template-2",
-      "name": "Classic Pro",
-      "description": "Professional and timeless design",
-      "thumbnail": "/thumbnails/template-2.svg"
-    },
-    {
-      "id": "template-3",
-      "name": "Minimal Clean",
-      "description": "Minimal approach with clean lines",
-      "thumbnail": "/thumbnails/template-3.svg"
-    },
-    {
-      "id": "template-4",
-      "name": "Corporate Plus",
-      "description": "Corporate style with modern touches",
-      "thumbnail": "/thumbnails/template-4.svg"
-    },
-    {
-      "id": "template-5",
-      "name": "Dynamic Blue",
-      "description": "Vibrant blue theme with dynamic elements",
-      "thumbnail": "/thumbnails/template-5.svg"
-    },
-    {
-      "id": "template-6",
-      "name": "Elegant White",
-      "description": "Clean white background with elegant accents",
-      "thumbnail": "/thumbnails/template-6.svg"
-    },
-    {
-      "id": "template-7",
-      "name": "Bold Orange",
-      "description": "Energetic orange and charcoal theme with strong CTAs and bold typography.",
-      "thumbnail": "/thumbnails/template-7.svg"
-    },
-    {
-      "id": "template-8",
-      "name": "Nathan Pro",
-      "description": "Slate/dark hero with trust signals and lead capture focus. Inspired by top producers.",
-      "thumbnail": "/thumbnails/template-8.svg"
-    },
-    {
-      "id": "template-9",
-      "name": "Prestige",
-      "description": "Warm neutral palette with asymmetric layouts and elegant accents.",
-      "thumbnail": "/thumbnails/template-9.svg"
-    },
-    {
-      "id": "template-10",
-      "name": "Revolve Pro",
-      "description": "Ported from a top-producing team's live site. Dark hero, bold stats, high conversion.",
-      "thumbnail": "/thumbnails/template-10.svg"
-    },
-    {
-      "id": "template-classic",
-      "name": "Classic",
-      "description": "Traditional mortgage & banking look. Navy, gold, and trustworthy typography.",
-      "thumbnail": "/thumbnails/template-classic.svg"
-    },
-    {
-      "id": "template-modern",
-      "name": "Modern",
-      "description": "Clean, contemporary design with soft gradients and card-based layout.",
-      "thumbnail": "/thumbnails/template-modern.svg"
-    },
-    {
-      "id": "template-bold",
-      "name": "Bold",
-      "description": "High-contrast design with powerful CTAs and oversized typography.",
-      "thumbnail": "/thumbnails/template-bold.svg"
-    },
-    {
-      "id": "template-minimal",
-      "name": "Minimal",
-      "description": "Ultra-clean with generous whitespace. Let your work speak for itself.",
-      "thumbnail": "/thumbnails/template-minimal.svg"
-    },
-    {
-      "id": "template-professional",
-      "name": "Professional",
-      "description": "Corporate and trust-focused. Deep forest green with structured layout.",
-      "thumbnail": "/thumbnails/template-professional.svg"
-    },
-    {
-      "id": "template-warm",
-      "name": "Warm",
-      "description": "Friendly and approachable. Amber tones with personal storytelling focus.",
-      "thumbnail": "/thumbnails/template-warm.svg"
-    }
+    { "id": "template-1", "name": "Modern Dark", "description": "Sleek dark theme with modern design elements", "thumbnail": "/thumbnails/template-1.svg" },
+    { "id": "template-2", "name": "Classic Pro", "description": "Professional and timeless design", "thumbnail": "/thumbnails/template-2.svg" },
+    { "id": "template-3", "name": "Minimal Clean", "description": "Minimal approach with clean lines", "thumbnail": "/thumbnails/template-3.svg" },
+    { "id": "template-4", "name": "Corporate Plus", "description": "Corporate style with modern touches", "thumbnail": "/thumbnails/template-4.svg" },
+    { "id": "template-5", "name": "Dynamic Blue", "description": "Vibrant blue theme with dynamic elements", "thumbnail": "/thumbnails/template-5.svg" },
+    { "id": "template-6", "name": "Elegant White", "description": "Clean white background with elegant accents", "thumbnail": "/thumbnails/template-6.svg" },
+    { "id": "template-7", "name": "Bold Orange", "description": "Energetic orange and charcoal theme with strong CTAs and bold typography.", "thumbnail": "/thumbnails/template-7.svg" },
+    { "id": "template-8", "name": "Nathan Pro", "description": "Slate/dark hero with trust signals and lead capture focus. Inspired by top producers.", "thumbnail": "/thumbnails/template-8.svg" }
   ]
 }

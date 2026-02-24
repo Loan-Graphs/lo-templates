@@ -1,4 +1,8 @@
-// LoanProduct (used in loanProducts array)
+// === LOProfile — canonical schema (synced from lo-react-template) ===
+
+export type Plan = 'free' | 'paid'
+export type SeoTier = 'minimum' | 'standard' | 'elite'
+
 export interface LoanProduct {
   id: string
   name: string
@@ -6,53 +10,64 @@ export interface LoanProduct {
   icon?: string
 }
 
-// Testimonial (used in testimonials array)
 export interface Testimonial {
-  id?: string
+  id: string
   author: string
-  text: string
   rating: number
+  text: string
   date?: string
 }
 
-// Core LoanOfficer interface — covers all fields used by any template
-// All fields present in stock-data.json are required here
-export interface LoanOfficer {
+export interface LOProfile {
   // Identity
   name: string
-  nmls: string
   title: string
-  email: string
-  phone: string
-  bio: string
+  nmls: string
   photo: string
   company: string
-
-  // Licensing (both spellings present in stock data)
-  licensedStates: string[]
   licenseStates: string[]
+
+  // Contact
+  phone: string
+  email: string
+  calendlyUrl?: string
 
   // Social proof
   googleRating: number
   reviewCount: number
   yearsExperience: number
-  yearsInIndustry: number
 
-  // Branding
+  // Branding (locked on free tier)
   primaryColor: string
   accentColor: string
+  logoUrl?: string
 
   // Content
   headline: string
   subheadline: string
+  bio: string
   loanProducts: LoanProduct[]
   testimonials: Testimonial[]
   differentiators: string[]
 
-  // Legacy fields
+  // Tier / upsells
+  plan: Plan
+  marketDataEnabled: boolean
+  seoArticlesEnabled: boolean
+  seoTier?: SeoTier
+  targetGeos?: string[]
+  targetTopics?: string[]
+}
+
+// Backward compat alias for templates 4-9 that still use old field names
+export interface LoanOfficer extends LOProfile {
+  licensedStates: string[]
   loanTypes: string[]
   certifications: string[]
+  yearsInIndustry: number
 }
+
+// === Company & Blog (unchanged) ===
 
 export interface Company {
   name: string
