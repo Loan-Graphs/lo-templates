@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#000000"/>
+  <rect x="0" y="0" width="600" height="56" fill="#111111"/>
+  <text x="24" y="36" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="900">BOLD</text>
+  <rect x="480" y="14" width="100" height="28" fill="#dc2626"/>
+  <text x="530" y="32" fill="#ffffff" font-family="system-ui" font-size="10" font-weight="900" text-anchor="middle">USE TEMPLATE</text>
+  <text x="40" y="110" fill="#dc2626" font-family="system-ui" font-size="9" font-weight="900" letter-spacing="3">NMLS #123456</text>
+  <text x="40" y="148" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="900">MORTGAGES.</text>
+  <text x="40" y="186" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="900">DONE FAST.</text>
+  <rect x="40" y="200" width="60" height="6" fill="#dc2626"/>
+  <rect x="40" y="222" width="130" height="42" fill="#dc2626"/>
+  <text x="105" y="248" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="900" text-anchor="middle">APPLY NOW</text>
+  <rect x="182" y="222" width="130" height="42" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="247" y="248" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="900" text-anchor="middle">CALL NOW</text>
+  <rect x="400" y="72" width="160" height="210" fill="#1a1a1a"/>
+  <rect x="404" y="76" width="152" height="202" fill="#dc2626" opacity="0.15"/>
+  <circle cx="480" cy="178" r="55" fill="#dc2626" opacity="0.2"/>
+  <rect x="0" y="330" width="600" height="70" fill="#dc2626"/>
+  <text x="300" y="360" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="900" text-anchor="middle">6★ · 100+ REVIEWS · 10+ YEARS</text>
+</svg>

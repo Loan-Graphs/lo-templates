@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0f172a"/>
+  <rect x="0" y="0" width="600" height="60" fill="#1e293b"/>
+  <text x="24" y="38" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Revolve Pro</text>
+  <text x="550" y="38" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" text-anchor="end" opacity="0.7">LoanGraphs</text>
+  <rect x="40" y="90" width="200" height="20" rx="4" fill="#f97316" opacity="0.8"/>
+  <rect x="40" y="126" width="300" height="12" rx="3" fill="#334155" opacity="0.8"/>
+  <rect x="40" y="148" width="260" height="12" rx="3" fill="#334155" opacity="0.6"/>
+  <rect x="40" y="186" width="130" height="38" rx="4" fill="#f97316"/>
+  <text x="105" y="210" fill="#ffffff" font-family="system-ui" font-size="12" text-anchor="middle" font-weight="bold">Apply Now</text>
+  <rect x="400" y="80" width="160" height="190" rx="8" fill="#334155"/>
+  <circle cx="480" cy="165" r="50" fill="#1e293b"/>
+  <rect x="40" y="270" width="120" height="60" rx="6" fill="#334155" opacity="0.8"/>
+  <rect x="180" y="270" width="120" height="60" rx="6" fill="#334155" opacity="0.8"/>
+  <rect x="320" y="270" width="120" height="60" rx="6" fill="#334155" opacity="0.8"/>
+</svg>

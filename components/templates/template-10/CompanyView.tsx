@@ -6,7 +6,7 @@ import type { TemplateProps } from '../types'
  * Company-level variant: features the team, offices, and company CTA.
  */
 
-export function CompanyView({ company, loanOfficer: lo, blogPosts }: TemplateProps) {
+export function CompanyView({ company }: TemplateProps) {
   const sky = '#0ea5e9'
   const navy = '#0f172a'
   const slateLight = '#f8fafc'
