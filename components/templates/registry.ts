@@ -7,6 +7,7 @@ import * as template6 from './template-6'
 import * as template7 from './template-7'
 import * as template8 from './template-8'
 import * as template9 from './template-9'
+import * as template10 from './template-10'
 import type { TemplateProps } from './types'
 
 export interface TemplateEntry {
@@ -25,6 +26,7 @@ export const templates: Record<string, TemplateEntry> = {
   'template-7': template7,
   'template-8': template8,
   'template-9': template9,
+  'template-10': template10,
 }
 
 export const templateList = Object.values(templates).map(t => t.templateMeta)
