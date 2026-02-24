@@ -188,6 +188,54 @@
       "name": "Nathan Pro",
       "description": "Slate/dark hero with trust signals and lead capture focus. Inspired by top producers.",
       "thumbnail": "/thumbnails/template-8.svg"
+    },
+    {
+      "id": "template-9",
+      "name": "Prestige",
+      "description": "Warm neutral palette with asymmetric layouts and elegant accents.",
+      "thumbnail": "/thumbnails/template-9.svg"
+    },
+    {
+      "id": "template-10",
+      "name": "Revolve Pro",
+      "description": "Ported from a top-producing team's live site. Dark hero, bold stats, high conversion.",
+      "thumbnail": "/thumbnails/template-10.svg"
+    },
+    {
+      "id": "template-classic",
+      "name": "Classic",
+      "description": "Traditional mortgage & banking look. Navy, gold, and trustworthy typography.",
+      "thumbnail": "/thumbnails/template-classic.svg"
+    },
+    {
+      "id": "template-modern",
+      "name": "Modern",
+      "description": "Clean, contemporary design with soft gradients and card-based layout.",
+      "thumbnail": "/thumbnails/template-modern.svg"
+    },
+    {
+      "id": "template-bold",
+      "name": "Bold",
+      "description": "High-contrast design with powerful CTAs and oversized typography.",
+      "thumbnail": "/thumbnails/template-bold.svg"
+    },
+    {
+      "id": "template-minimal",
+      "name": "Minimal",
+      "description": "Ultra-clean with generous whitespace. Let your work speak for itself.",
+      "thumbnail": "/thumbnails/template-minimal.svg"
+    },
+    {
+      "id": "template-professional",
+      "name": "Professional",
+      "description": "Corporate and trust-focused. Deep forest green with structured layout.",
+      "thumbnail": "/thumbnails/template-professional.svg"
+    },
+    {
+      "id": "template-warm",
+      "name": "Warm",
+      "description": "Friendly and approachable. Amber tones with personal storytelling focus.",
+      "thumbnail": "/thumbnails/template-warm.svg"
     }
   ]
 }
